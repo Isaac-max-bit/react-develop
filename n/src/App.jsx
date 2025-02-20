@@ -33,3 +33,47 @@ function App() {
 }
 
 export default App
+
+
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './App.css'
+
+// function App() {
+//   const [name, setName] = useState('')  // Estado para el nombre
+
+//   // Función para manejar el cambio en el input
+//   const handleNameChange = (e) => {
+//     setName(e.target.value)
+//   }
+
+//   return (
+//     <>
+//       <div>
+//         <a href="https://vite.dev" target="_blank">
+//           <img src={viteLogo} className="logo" alt="Vite logo" />
+//         </a>
+//         <a href="https://react.dev" target="_blank">
+//           <img src={reactLogo} className="logo react" alt="React logo" />
+//         </a>
+//       </div>
+//       <h1>Bienvenido</h1>
+//       <div className="card">
+//         {/* Input para que el usuario ingrese su nombre */}
+//         <input
+//           type="text"
+//           placeholder="¿Cuál es tu nombre?"
+//           value={name}
+//           onChange={handleNameChange}
+//         />
+//         <p>{name && `¡Hola, ${name}!`}</p> {/* Muestra el nombre si está disponible */}
+//       </div>
+//       <p className="read-the-docs">
+        
+//       </p>
+//     </>
+//   )
+// }
+
+// export default App
